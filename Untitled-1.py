@@ -8,7 +8,7 @@ with tf.compat.v1.Session() as ses:
      a = tf.constant(5.0)
      b = tf.constant(6.0)
      c = a * b
-     msg = tf.constant('hello world')
+     msg = tf.constant('hello')
      print (ses.run(msg))
      # Evaluate the tensor `c`.
      print(ses.run(c))
